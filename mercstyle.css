@@ -1,0 +1,146 @@
+/* Add a black background color to the top navigation */
+#toplinks{
+  text-align: right;
+  font-size: 110%;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  padding-right: 3%;
+  padding
+}
+#toplinks a{
+  color: #f2f2f2;
+  padding-right: 2%;
+  text-decoration: none;
+}
+#toplinks a:hover{
+  color: #5DADE2 ;
+}
+#logo{
+  height: 7%;
+  width: 7%;
+  margin-left: 3%;
+  margin-right: 2%;
+}
+
+.topnav {
+  margin-left: 5%;
+  overflow: hidden;
+  margin-bottom: 1%;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #DADADA;
+  text-align: right;
+  padding-right: 3%;
+  text-decoration: none;
+  font-size: 160%;
+
+  font-family: Bodoni MT;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+color: white;
+  }
+
+.topnav a.active{
+  margin-right: 1%;
+  margin-left: 1%;
+  font-style: bold;
+  font-size: 180%;
+  color: white;
+}
+/*.topnav a.active:hover {
+  color: white;
+}*/
+
+#search{
+  height: 1%;
+  width: 1.5%;
+  margin-left: 1%;
+}
+
+#sclass {
+  margin-top: 1%;
+  height: 110%;
+  width: 100%;
+  opacity: 83%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  margin-bottom: 10px;
+  top: 90px;
+  left: 50px;
+}
+
+#learn
+{
+  background: #273746   ;
+  color: #CCD1D1 ;
+  margin-top: 0px; 
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 110%;
+  text-decoration: none;
+}
+
+#searchbar
+{
+  float: center;
+  width: 87%;
+  padding: 7px;
+  padding-left: 25px;
+  border: none;
+  margin-top: 1.5%;
+  font-size: 110%;
+  background: #E5E8E8;
+
+}
+
+.infocontent{
+  float: left;
+  margin-top: 100px;
+  margin-left: 45px;
+  width: 70%;
+  text-align: left;
+  font-size: 100%;
+}
+
+#phead{
+  margin-bottom: 20px;
+}
+
+.onethird{
+  min-width: 23%;
+  float: left;
+  padding: 3%;
+  color: white;
+  font-size: 110%;
+}
+
+#specialhead{
+  color: #F0F3F4 ;
+  margin-left: 10px;
+  font-family: Bodoni MT Condensed;
+  font-size: 190%;
+}
+
+.icons{
+height: 90%;
+width: 100%;
+}
+
+.fadein{animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:83%}}
+.fadeintext{animation:opact 2s}@keyframes opact{from{opacity:0} to{opacity:1}}
+.slidein{position:relative;animation:animatebottom 2s}@keyframes animatebottom{from{bottom:-100px;opacity:0} to{bottom:0;opacity:83%}}
+/* Add a color to the active/current link */
