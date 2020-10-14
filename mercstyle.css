@@ -140,7 +140,4 @@ height: 90%;
 width: 100%;
 }
 
-.fadein{animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:83%}}
-.fadeintext{animation:opact 2s}@keyframes opact{from{opacity:0} to{opacity:1}}
-.slidein{position:relative;animation:animatebottom 2s}@keyframes animatebottom{from{bottom:-100px;opacity:0} to{bottom:0;opacity:83%}}
 /* Add a color to the active/current link */
