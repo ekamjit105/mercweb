@@ -1,4 +1,8 @@
 /* Add a black background color to the top navigation */
+body{
+  margin : 0;
+  padding : 0;
+}
 #toplinks{
   text-align: right;
   font-size: 110%;
